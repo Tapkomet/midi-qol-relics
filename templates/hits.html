@@ -1,0 +1,20 @@
+<div class="midi-qol-relics-single-hit-card">
+  {{#unless oneCard}}
+  <div>{{attackType}}</div>
+  {{/unless}}
+  <div class="midi-qol-relics-nobox">
+    {{#each hits as |hit iid|}}
+    <div class="midi-qol-relics-flex-container">
+      <div>
+        {{hit.hitString}}
+      </div>
+      <div class="midi-qol-relics-target-npc-GM midi-qol-relics-target-name" id={{hit.target.id}}> {{hit.gmName}}</div>
+      <div class="midi-qol-relics-target-npc-Player midi-qol-relics-target-name" id={{hit.target.id}}> {{hit.playerName}}</div>
+      <div><img src="{{hit.img}}" width="30" height="30" style="border:0px" /></div>
+      {{#if hit.bonusAC}}
+      <div>+{{hit.bonusAC}} {{localize "midi-qol-relics.BonusACCover"}}</div>
+      {{/if}}
+    </div>
+    {{/each}}
+  </div>
+</div>

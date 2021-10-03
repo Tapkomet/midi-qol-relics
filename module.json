@@ -1,0 +1,73 @@
+{
+  "name": "midi-qol-relics",
+  "title": "Midi QOL Relics",
+  "description": "Automates rolling weapon/spell attacks and applying damage",
+  "system": ["relics"],
+  "version": "0.8.61",
+  "author": "tposney",
+  "socket": true,
+  "scripts": [],
+  "esmodules": ["src/midi-qol-relics.js"],
+  "styles": ["css/styles.css"],
+  "dependencies": [
+    {
+    "name": "socketlib", "type": "module"
+    }
+  ],
+  "languages": [
+      {
+          "lang": "en",
+          "name": "English",
+          "path": "lang/en.json"
+      },
+      {
+          "lang": "ja",
+          "name": " 日本語",
+          "path": "lang/ja.json"
+      },
+      {
+          "lang": "ko",
+          "name": "Korean",
+          "path": "lang/ko.json"
+      },
+      {
+          "lang": "cn",
+          "name": "中文",
+          "path": "lang/cn.json"
+      },
+      {
+          "lang": "fr",
+          "name": "Français",
+          "path": "lang/fr.json"
+      },
+      {
+          "lang": "pt-BR",
+          "name": "Português (Brasil)",
+          "path": "lang/pt-BR.json"
+      },
+      {
+          "lang": "es",
+          "name": "Spanish",
+          "path": "lang/es.json"
+      },
+      {
+          "lang": "de",
+          "name": "Deutsch",
+          "path": "lang/de.json"
+      },
+      {
+          "lang": "it",
+          "name": "Italian",
+          "path": "lang/it.json"
+      }
+  ],
+  "minimumCoreVersion": "0.8.4",
+  "compatibleCoreVersion": "0.8.9",
+  "minimumSystemVersion": "0.1.1",
+  "flags": {
+    "allowBugReporter": true
+  },
+  "url": "https://github.com/Tapkomet//midi-qol-relics",
+  "manifest": "https://raw.githubusercontent.com/Tapkomet/midi-qol-relics/main/module.json",
+  "download": "https://gitlab.com/tapkomet/midi-qol-relics/archive/refs/heads/main.zip"
+}
