@@ -3,7 +3,7 @@
   "title": "Midi QOL Relics",
   "description": "Automates rolling weapon/spell attacks and applying damage",
   "system": ["relics"],
-  "version": "0.8.61",
+  "version": "0.8.62",
   "author": "tposney",
   "socket": true,
   "scripts": [],
